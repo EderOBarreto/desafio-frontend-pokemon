@@ -1,12 +1,15 @@
 <template>
+
 </template>
 <script lang="ts">
 import { Vue, Component } from 'vue-property-decorator';
 
 @Component
-class Header extends Vue {}
+class PokCard extends Vue {
 
-export default Header;
+}
+
+export default PokCard;
 </script>
 
 <style lang="scss" scoped>

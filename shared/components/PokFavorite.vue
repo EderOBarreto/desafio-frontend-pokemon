@@ -1,15 +1,20 @@
 <template>
-  <div> body component</div>
+  <span class="pok-favorite">
+
+  </span>
 </template>
 <script lang="ts">
-import { Vue, Component } from 'vue-property-decorator';
+import { Component, Prop, Vue } from 'vue-property-decorator';
 
 @Component
-class PokFavorite extends Vue {}
+class PokFavorite extends Vue {
+}
 
 export default PokFavorite;
 </script>
 
 <style lang="scss" scoped>
-
+  .pok-favorite {
+    cursor: pointer;
+  }
 </style>

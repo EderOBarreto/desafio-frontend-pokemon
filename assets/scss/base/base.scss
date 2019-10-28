@@ -1,0 +1,21 @@
+body {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 12px;
+  line-height: 1;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: 'liga' 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  &.-overflow {
+    overflow: hidden;
+
+    @media (max-width: 767px) {
+      overflow: inherit;
+    }
+  }
+}
+
+li {
+  list-style: none;
+}

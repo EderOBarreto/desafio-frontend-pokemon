@@ -1,0 +1,4 @@
+@import './tools/set-font.scss';
+
+@include font-face('Fira Sans', 400, '../fonts/FiraSans-Regular');
+@include font-face('Fira Sans', 600, '../fonts/FiraSans-SemiBold');
